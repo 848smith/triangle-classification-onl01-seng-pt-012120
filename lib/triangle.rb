@@ -11,7 +11,9 @@ class Triangle
     elsif length1 + length2 <= length3 || length2 + length3 <= length1 || length1 + length3 <= length2
       raise TriangleError
     else
-      if length1 ==
+      if length1 == length2 && length2 == length3
+        :equilateral
+      elsif
   end
   
   class TriangleError < StandardError
