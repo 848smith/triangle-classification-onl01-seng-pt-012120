@@ -11,6 +11,7 @@ class Triangle
     elsif length1 + length2 <= length3 || length2 + length3 <= length1 || length1 + length3 <= length2
       raise TriangleError
     else
+      if length1 ==
   end
   
   class TriangleError < StandardError
