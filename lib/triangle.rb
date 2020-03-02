@@ -13,7 +13,7 @@ class Triangle
     else
       if length1 == length2 && length2 == length3
         :equilateral
-      elsif
+      elsif length1 == length2 || length2 == length3 || length3 == length1
   end
   
   class TriangleError < StandardError
